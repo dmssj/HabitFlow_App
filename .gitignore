@@ -1,0 +1,35 @@
+# Gradle-файлы и локальные конфигурации
+.gradle/
+/local.properties
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aar
+
+# Исключение всех директорий сборки во всех модулях (Важно для многомодульности)
+**/build/
+build/
+
+# Настройки среды разработки (JetBrains / Android Studio)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Секреты, ключи и переменные окружения
+.env
+.env.*
+*.keystore
+!debug.keystore
+google-services.json
+google-services.*.json
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Автогенерация и кэш
+.kotlin/
+.artifacts/
+*.log

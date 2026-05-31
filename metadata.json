@@ -1,0 +1,6 @@
+{
+  "name": "HabitFlow",
+  "description": "HabitFlow — это чистое и эстетичное приложение для отслеживания привычек с детальной статистикой и аналитикой выполнения.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
