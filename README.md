@@ -20,16 +20,6 @@ HabitFlow — это современное и удобное Android-прило
 *   **WorkManager** — фоновые задачи и периодические уведомления.
 *   **Coroutines & Flow** — асинхронная работа.
 
-## Скриншоты
-*В этом разделе вы можете добавить скриншоты вашего приложения.*
-
-| Главный экран | Создание привычки | Экран статистики |
-| :---: | :---: | :---: |
-| ![Main Screen](https://via.placeholder.com/200x400?text=Habit+List) | ![Create Habit](https://via.placeholder.com/200x400?text=Create+Habit) | ![Statistics](https://via.placeholder.com/200x400?text=Statistics) |
-
-| Экран о компании | Карта | Распознавание объектов |
-| :---: | :---: | :---: |
-| ![About Company](https://via.placeholder.com/200x400?text=About+Company) | ![Map Screen](https://via.placeholder.com/200x400?text=Yandex+Map) | ![Object Detection](https://via.placeholder.com/200x400?text=AI+Detection) |
 
 ## Архитектура проекта
 Проект построен на многомодульной архитектуре:
@@ -43,8 +33,8 @@ HabitFlow — это современное и удобное Android-прило
 
 # Где реализованы критерии
 
-| Критерий | Баллы | Файлы | Краткое описание |
-| :--- | :--- | :--- | :--- |
+| Критерий | Файлы | Краткое описание |
+| :--- | :--- | :--- |
 | **Clean Architecture** | 8 | `:domain/*`, `:data/*`, `:feature-*` | Проект строго разделен на слои. Домен не зависит от Android SDK. |
 | **WorkManager** | 6 | `HabitReminderWorker.kt`, `HabitFlowApplication.kt` | Периодическая задача (24ч) для отправки напоминаний о привычках. |
 | **Compose Animation** | 4 | `HabitListScreen.kt`, `CreateHabitScreen.kt` | Анимация прогресс-бара (`animateFloatAsState`) и появление шаблонов (`AnimatedVisibility`). |
